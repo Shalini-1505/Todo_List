@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My ToDo List
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-container">
+        <p class="heading">My To-Do List</p>
+        <div class="input-line">
+          <input type="text" class="input" id="input-name" placeholder="Enter task to be done...">
+          <i class="fa-solid fa-plus"></i>
+          <button onclick=getTodo() class="add-todo-button">Add</button>
+        </div>
+      </div>
+        <div id="todolist" class="todo-lists"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
